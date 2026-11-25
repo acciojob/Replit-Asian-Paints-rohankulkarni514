@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
